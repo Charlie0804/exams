@@ -1,0 +1,15 @@
+{
+    errdata = "22_class_template/main.cpp: In instantiation of ‘\27[01m\27[KTensor4D<T>& Tensor4D<T>::operator+=(const Tensor4D<T>&) [with T = int]\27[m\27[K’:\
+\27[01m\27[K22_class_template/main.cpp:81:15:\27[m\27[K   required from here\
+\27[01m\27[K22_class_template/main.cpp:39:13:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Ksuggest parentheses around assignment used as truth value [\27[01;35m\27[K-Wparentheses\27[m\27[K]\
+   39 |             \27[01;35m\27[Kif\27[m\27[K (broadcast[i] = (shape[i] != others.shape[i]))\
+      |             \27[01;35m\27[K^~\27[m\27[K\
+22_class_template/main.cpp: In instantiation of ‘\27[01m\27[KTensor4D<T>& Tensor4D<T>::operator+=(const Tensor4D<T>&) [with T = float]\27[m\27[K’:\
+\27[01m\27[K22_class_template/main.cpp:112:15:\27[m\27[K   required from here\
+\27[01m\27[K22_class_template/main.cpp:39:13:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Ksuggest parentheses around assignment used as truth value [\27[01;35m\27[K-Wparentheses\27[m\27[K]\
+22_class_template/main.cpp: In instantiation of ‘\27[01m\27[KTensor4D<T>& Tensor4D<T>::operator+=(const Tensor4D<T>&) [with T = double]\27[m\27[K’:\
+\27[01m\27[K22_class_template/main.cpp:134:15:\27[m\27[K   required from here\
+\27[01m\27[K22_class_template/main.cpp:39:13:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Ksuggest parentheses around assignment used as truth value [\27[01;35m\27[K-Wparentheses\27[m\27[K]\
+\27[01m\27[Kcc1plus:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunrecognized command line option ‘\27[01m\27[K-Wno-gnu-line-marker\27[m\27[K’\
+"
+}

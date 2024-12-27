@@ -1,0 +1,12 @@
+{
+    errdata = "\27[01m\27[K06_array/main.cpp:\27[m\27[K In function ‘\27[01m\27[Klong long unsigned int fibonacci(int)\27[m\27[K’:\
+\27[01m\27[K06_array/main.cpp:14:77:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Karray subscript 90 is above array bounds of ‘\27[01m\27[Klong long unsigned int [90]\27[m\27[K’ [\27[01;35m\27[K-Warray-bounds\27[m\27[K]\
+   14 |             return (i < 90) ? (fibonacci(i - 1) + fibonacci(i - 2)) : (\27[01;35m\27[Karr[i]\27[m\27[K = fibonacci(i - 1) + fibonacci(i - 2));\
+      |                                                                        \27[01;35m\27[K~~~~~^\27[m\27[K\
+\27[01m\27[K06_array/main.cpp:5:20:\27[m\27[K \27[01;36m\27[Knote: \27[m\27[Kwhile referencing ‘\27[01m\27[Karr\27[m\27[K’\
+    5 | unsigned long long \27[01;36m\27[Karr\27[m\27[K[90]{0, 1};\
+      |                    \27[01;36m\27[K^~~\27[m\27[K\
+At global scope:\
+\27[01m\27[Kcc1plus:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kunrecognized command line option ‘\27[01m\27[K-Wno-gnu-line-marker\27[m\27[K’\
+"
+}

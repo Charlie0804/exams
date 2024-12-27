@@ -1,0 +1,8 @@
+{
+    cmdlines = {
+        "xmake lua /home/charlie/.local/share/xmake/modules/private/utils/statistics.lua --project=/home/charlie/workspace/opencamp/InfiniTensor/learning-cxx/exercises",
+        "xmake lua /home/charlie/.local/share/xmake/actions/build/cleaner.lua --project=/home/charlie/workspace/opencamp/InfiniTensor/learning-cxx/exercises",
+        "xmake lua /home/charlie/.local/share/xmake/modules/private/utils/statistics.lua --project=/home/charlie/workspace/opencamp/InfiniTensor/learning-cxx/exercises",
+        "xmake lua /home/charlie/.local/share/xmake/actions/build/cleaner.lua --project=/home/charlie/workspace/opencamp/InfiniTensor/learning-cxx/exercises"
+    }
+}
